@@ -18,7 +18,7 @@ def main():
 
     print("DOWNLOAD STARTED !!! ------------------>")
     downloader = Downloader(anime_scraper.dataDict)
-    #downloader.downloadAnime()
+    downloader.downloadAnime()
     print("DOWNLOAD COMPLETED !!! ---------------->")
     print("=" * 40)
 
